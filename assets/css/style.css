@@ -44,7 +44,7 @@ section {
  }
 
 section  {
-    background-color: #e9dada;
+    background-color: #ffffff;
     height: 100 px;
 }
 
@@ -54,7 +54,7 @@ body {
     font-size: 16px;
 }
 
-main section img {
+main section .profile-pic {
     max-height: 252px;
     margin-top: 2px;
     margin-left: 40px;
@@ -62,18 +62,92 @@ main section img {
 
 }
 
-button {
-    max-width: 50px;
-    max-height: 20px;
-    
-
+.horiseon {
+    display: flex;
+    height: 261px;
+    width: 600px;
 }
+    
 
 #about-me {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+
+    
 }
+
+#about-me h2 {
+    margin-left: 72px;
+    font-size: 35px;
+    color: rgb(8, 8, 8);
+   
+}
+
+#work {
+    display: flex;
+    align-items: center
+    
+}
+
+
+#work h2 {
+    margin-left: 83px;
+    font-size: 35px;
+    color: rgb(8, 8, 8);
+    
+    
+}
+
+.big-box {
+    width: 600px;
+    height: 261px;
+    margin: 2px 2px 2px 180px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.small-box-container {
+    
+    display: flex;    
+    flex-wrap: wrap;
+    width: 600px;
+
+}
+
+.code-refactoring {
+    color:white;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-bottom: 110px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+
+h3 {
+    align-items: center;
+    color: WHite;
+    display: flex;
+}
+
+
+
+.small-box {
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    margin: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 
 
@@ -88,13 +162,19 @@ button {
 
 #about-me p {
     margin: 10%;
+    color: rgb(16, 81, 221);
 }
 
-#about-me h2 {
-    margin-left: 77px;
-    font-size: 35px
-   
+
+
+.vl1{
+border-left: 2px solid rgb(19, 19, 18);
+    height: 298px;
+    display: flex;
+    margin-left: 4%
 }
+
+
 
 .full-stack-web-developer {
     position: absolute;
@@ -123,14 +203,54 @@ footer ul li {
 
 #contact h2 {
     margin-left: 77px;
-    margin-top: 6px;
+    margin-top: 75px;
     font-size: 35px;
+    
     
 }
 
 #contact nav ul li {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
 
+}
+
+.contact-info {
+    margin: 80px;
+    margin-top:90px;
+   
+    
+}
+
+#contact{
+    display: flex;
+    
+}
+
+.info{
+    margin-left: 70px;
+}
+
+.vl {
+    border-left: 2px solid rgb(247, 246, 242);
+    height: 200px;
+    display: flex;
+    margin-left: 2%
+
+}
+
+.container {
+    width: 90%;
+    background: Blue;
+    height: 100px;
+}
+
+@media screen and (min-width:800px) {
+    .container {
+        width: 80%;
+        background: green;
+        height: 200px;
+    }
+    
 }
