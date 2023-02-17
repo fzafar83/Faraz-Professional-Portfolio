@@ -240,17 +240,31 @@ footer ul li {
 
 }
 
-.container {
-    width: 90%;
-    background: Blue;
-    height: 100px;
+.workContainer {
+   display: flex;
+   width: 100%;
+   flex-wrap: nowrap;
 }
 
 @media screen and (min-width:800px) {
-    .container {
-        width: 80%;
-        background: green;
-        height: 200px;
+   
+    #work {
+        flex-wrap: nowrap;
+        height: 50vh;
+
     }
+
+    .workContainer {
+        flex-wrap: nowrap;
+    }
+.big-box {
+    margin:auto;
+
+}
+
+.vl1 {
+    height:100%;
+    
+}
     
 }
