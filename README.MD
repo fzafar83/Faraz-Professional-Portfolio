@@ -27,5 +27,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 This challenge was performed after creating a repository in the Github, Opening the Challenge in the VS code, created a portfolio in by using the HTML and CSS elements and attributes.
 
 **Usage**
-[Faraz-Professional-Portfolio](https://github.com/fzafar83/Faraz-Professional-Portfolio/blob/main/assets/images/screencapture-file-C-Users-Sumreen-Faraz-Desktop-bootcamp-Faraz-Professional-Portfolio-index-html-2023-02-17-16_16_48.png)
+![Faraz-Professional-Portfolio](https://github.com/fzafar83/Faraz-Professional-Portfolio/blob/main/assets/images/screencapture-file-C-Users-Sumreen-Faraz-Desktop-bootcamp-Faraz-Professional-Portfolio-index-html-2023-02-17-16_16_48.png)
 [link](https://fzafar83.github.io/Faraz-Professional-Portfolio/)
+
